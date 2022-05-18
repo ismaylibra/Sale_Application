@@ -17,15 +17,15 @@ namespace Sailing_Application_Delegate_
             do
             {
                 int i = 0;
-                Console.WriteLine($"{++i}.{product1}");
+                Console.WriteLine($"1.{product1}");
                 Console.WriteLine("************");
-                Console.WriteLine($"{++i}.{product2}");
+                Console.WriteLine($"2.{product2}");
                 Console.WriteLine("************");
-                Console.WriteLine($"{++i}.{product3}");
+                Console.WriteLine($"3.{product3}");
                 Console.WriteLine("************");
-                Console.WriteLine($"{++i}.{product4}");
+                Console.WriteLine($"4.{product4}");
                 Console.WriteLine("************");
-                Console.WriteLine($"{++i}. Ceki Cixart");
+                Console.WriteLine($"5. Ceki Cixart");
                 Console.WriteLine("************");
                 Console.Write("Menudan bir secenegi secin ");
                 choose = Convert.ToByte(Console.ReadLine());
