@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\obj\Debug\netcoreapp3.1\Sailing Application(Delegate).csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\obj\Debug\netcoreapp3.1\Sailing Application(Delegate).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\obj\Debug\netcoreapp3.1\Sailing Application(Delegate).AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\obj\Debug\netcoreapp3.1\Sailing Application(Delegate).AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\obj\Debug\netcoreapp3.1\Sailing Application(Delegate).csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\bin\Debug\netcoreapp3.1\Sailing Application(Delegate).exe
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\bin\Debug\netcoreapp3.1\Sailing Application(Delegate).deps.json
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\bin\Debug\netcoreapp3.1\Sailing Application(Delegate).runtimeconfig.json
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\bin\Debug\netcoreapp3.1\Sailing Application(Delegate).runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\bin\Debug\netcoreapp3.1\Sailing Application(Delegate).dll
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\bin\Debug\netcoreapp3.1\Sailing Application(Delegate).pdb
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\obj\Debug\netcoreapp3.1\Sailing Application(Delegate).dll
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\obj\Debug\netcoreapp3.1\Sailing Application(Delegate).pdb
+C:\Users\ASUS\Desktop\C# tasks\Sailing Application(Delegate)\Sailing Application(Delegate)\obj\Debug\netcoreapp3.1\Sailing Application(Delegate).genruntimeconfig.cache
