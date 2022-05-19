@@ -33,23 +33,20 @@ namespace Sailing_Application_Delegate_
             bool resultChoose = byte.TryParse(Console.ReadLine(), out choose);
                 
             Console.WriteLine("************");
-            try
-            {
-                if (resultChoose)
+             if (resultChoose)
                 {
+                    Console.Clear();
                     goto AfterMenu;
+                    
                 }
                 else if(!resultChoose)
                 {
+                    Console.Clear();
                     goto Menu;
                 }
 
-            }
-            catch (FormatException)
-            {
-
-                
-            }
+            
+            
             AfterMenu:
                 switch (choose)
                 {   
@@ -60,22 +57,17 @@ namespace Sailing_Application_Delegate_
                         Console.WriteLine($"Umumi odenilecek mebleg: {Order.TotalPrice}");
                         Console.Clear();
                         order.Sell(product1);
-                        try
-                        {
-                            if (resultProduct1)
+                          if (resultProduct1)
                             {
-                                goto Menu;
+                            Console.Clear();
+                            goto Menu;
                             }
                             else if (!resultProduct1)
                             {
-                                goto AfterMenu;
+                            Console.Clear();
+                            goto AfterMenu;
                             }
-                        }
-                        catch (FormatException)
-                        {
-
-                            throw;
-                        }
+                       
                         break;
                     case 2:
                     Case2Place:
@@ -85,23 +77,18 @@ namespace Sailing_Application_Delegate_
 
                         Console.Clear();
                         order.Sell(product2);
-                        try
-                        {
+                        
                             if (resultProduct2)
                             {
-                                goto Menu;
+                            Console.Clear();
+                            goto Menu;
                             }
                             else if (!resultProduct2)
                             {
-                                goto AfterMenu;
+                            Console.Clear();
+                            goto AfterMenu;
                             }
-                        }
-                        catch (FormatException)
-                        {
-
-                            throw;
-                        }
-
+                      
                         break;
                     case 3:
                     Case3Place:
@@ -111,23 +98,18 @@ namespace Sailing_Application_Delegate_
                         Console.Clear();
 
                         order.Sell(product3);
-                        try
-                        {
+                      
                             if (resultProduct3)
                             {
-                                goto Menu;
+                            Console.Clear();
+                            goto Menu;
                             }
                             else if (!resultProduct3)
                             {
-                                goto AfterMenu;
+                            Console.Clear();
+                            goto AfterMenu;
                             }
-                        }
-                        catch (FormatException)
-                        {
-
-                            throw;
-                        }
-
+                      
                         break;
                     case 4:
                     Case4Place:
@@ -136,22 +118,19 @@ namespace Sailing_Application_Delegate_
                         Console.WriteLine($"Umumi odenilecek mebleg: {Order.TotalPrice}");
                         Console.Clear();
                         order.Sell(product4);
-                        try
-                        {
+                        
+                       
                             if (resultProduct4)
                             {
-                                goto Menu;
+                            Console.Clear();
+                            goto Menu;
                             }
                             else if (!resultProduct4)
                             {
-                                goto AfterMenu;
+                            Console.Clear();
+                            goto AfterMenu;
                             }
-                        }
-                        catch (FormatException)
-                        {
-
-                            throw;
-                        }
+                       
 
                         break;
                     case 5:
