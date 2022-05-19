@@ -14,9 +14,11 @@ namespace Sailing_Application_Delegate_
             Product product4 = new Product("AntiFriz", 48.23);
             Order order = new Order();
             byte choose;
-            do
-            {
-                int i = 0;
+
+
+            do { 
+            Menu:
+
                 Console.WriteLine($"1.{product1}");
                 Console.WriteLine("************");
                 Console.WriteLine($"2.{product2}");
@@ -28,44 +30,132 @@ namespace Sailing_Application_Delegate_
                 Console.WriteLine($"5. Ceki Cixart");
                 Console.WriteLine("************");
                 Console.Write("Menudan bir secenegi secin ");
-                choose = Convert.ToByte(Console.ReadLine());
-                Console.WriteLine("************");
-                switch (choose)
+            bool resultChoose = byte.TryParse(Console.ReadLine(), out choose);
+                
+            Console.WriteLine("************");
+            try
+            {
+                if (resultChoose)
                 {
+                    goto AfterMenu;
+                }
+                else if(!resultChoose)
+                {
+                    goto Menu;
+                }
+
+            }
+            catch (FormatException)
+            {
+
+                
+            }
+            AfterMenu:
+                switch (choose)
+                {   
                     case 1:
+                    Case1Place:
                         Console.Write($"Nece Dene  Almaq Isteyirsiniz {product1.Name} ? ");
-                        product1.Count = Convert.ToInt32(Console.ReadLine());
+                        bool resultProduct1 = int.TryParse(Console.ReadLine(), out product1.Count);
                         Console.WriteLine($"Umumi odenilecek mebleg: {Order.TotalPrice}");
                         Console.Clear();
                         order.Sell(product1);
+                        try
+                        {
+                            if (resultProduct1)
+                            {
+                                goto Menu;
+                            }
+                            else if (!resultProduct1)
+                            {
+                                goto AfterMenu;
+                            }
+                        }
+                        catch (FormatException)
+                        {
+
+                            throw;
+                        }
                         break;
                     case 2:
+                    Case2Place:
                         Console.Write($"Nece Dene Almaq Isteyirsiniz {product2.Name} ? ");
-                        product2.Count = Convert.ToInt32(Console.ReadLine());
+                        bool resultProduct2 = int.TryParse(Console.ReadLine(), out product2.Count);
                         Console.WriteLine($"Umumi odenilecek mebleg: {Order.TotalPrice}");
 
                         Console.Clear();
                         order.Sell(product2);
-                        
+                        try
+                        {
+                            if (resultProduct2)
+                            {
+                                goto Menu;
+                            }
+                            else if (!resultProduct2)
+                            {
+                                goto AfterMenu;
+                            }
+                        }
+                        catch (FormatException)
+                        {
+
+                            throw;
+                        }
+
                         break;
                     case 3:
+                    Case3Place:
                         Console.Write($"Nece Dene Almaq Isteyirsiniz {product3.Name} ? ");
-                        product3.Count = Convert.ToInt32(Console.ReadLine());
+                        bool resultProduct3 = int.TryParse(Console.ReadLine(), out product3.Count);
                         Console.WriteLine($"Umumi odenilecek mebleg: {Order.TotalPrice}");
                         Console.Clear();
 
                         order.Sell(product3);
-                        
+                        try
+                        {
+                            if (resultProduct3)
+                            {
+                                goto Menu;
+                            }
+                            else if (!resultProduct3)
+                            {
+                                goto AfterMenu;
+                            }
+                        }
+                        catch (FormatException)
+                        {
+
+                            throw;
+                        }
+
                         break;
                     case 4:
+                    Case4Place:
                         Console.Write($"Nece Dene Almaq Isteyirsiniz {product4.Name} ? ");
-                        product4.Count = Convert.ToInt32(Console.ReadLine());
+                        bool resultProduct4 = int.TryParse(Console.ReadLine(), out product4.Count);
                         Console.WriteLine($"Umumi odenilecek mebleg: {Order.TotalPrice}");
                         Console.Clear();
                         order.Sell(product4);
-                       
+                        try
+                        {
+                            if (resultProduct4)
+                            {
+                                goto Menu;
+                            }
+                            else if (!resultProduct4)
+                            {
+                                goto AfterMenu;
+                            }
+                        }
+                        catch (FormatException)
+                        {
+
+                            throw;
+                        }
+
                         break;
                     case 5:
+                   
                         Console.Clear();
                         order.Cheking();
                         
